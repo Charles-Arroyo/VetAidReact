@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+.section {
+    display: flex;
+    flex-direction: column;  /* Default to stacking image on top of text */
+    align-items: center;     /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    width: 100%;              /* Adjust width as needed */
+    height: 100vh;           /* Fixed height for uniformity */
+    margin: 20px 0;          /* Spacing between sections */
+    box-sizing: border-box;  /* Include padding and border in the element's total width and height */   
+}
+
+.section .section-1-text {
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is the font you're using */
+    font-weight: 400; /* 'Thin' is often equivalent to a font-weight of 100 */
+    font-size: 140.27px; /* The size of your font */
+    color: #61dafb; /* This is the hex color code for white */  
+    margin-right: 600px;
+}
+
+.section-1-text2 {
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is the font you're using */
+    font-size: 90px;
+    font-weight: 100;
+    margin-bottom: 300px;
+    color: white;
+    margin-left: 200px;
+}
+
+
+
+.section-img {
+    display: flex;
+    align-items: center;     /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    width: 100%;              /* Adjust width as needed */
+    height: 100vh;           /* Fixed height for uniformity */
+   
+    box-sizing: border-box;  /* Include padding and border in the element's total width and height */  
+
+   
+}
+
+.section-img .section-2-text {
+    font-family: 'Inter', sans-serif; /* Assuming 'Inter' is the font you're using */
+    display: flex;
+    align-items: center;     /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    font-weight: 100; /* 'Thin' is often equivalent to a font-weight of 100 */
+    font-size: 80px; /* The size of your font */
+    color: #61dafb; /* This is the hex color code for white */  
+  
+}
+
+
+
+.section-2-text .section-2-img {
+    max-width: 30%; /* Covers 20 of the div */
+    margin-right: 30px;
+
+ 
+}
+
+.section-3-img{
+  max-width: 30%; /* Covers 20 of the div */
+    margin-right: 30px;
+}
+
+
+

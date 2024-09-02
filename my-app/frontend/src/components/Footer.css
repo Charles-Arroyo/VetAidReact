@@ -1,0 +1,10 @@
+/* Footer.css */
+.footer {
+    display: flex;
+    flex-shrink: 0; /* Prevents the footer from shrinking */
+    background-color: #21222a; /* Dark background for better visibility */
+    color: white; /* White text color */
+    text-align: center; /* Centers the text within the footer */
+    padding: 10px 20px; /* Adds padding for some breathing room */
+    justify-content: space-between;
+}

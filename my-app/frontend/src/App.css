@@ -1,0 +1,14 @@
+
+
+.content {
+    min-height: 100vh;
+    min-width: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  /* Stack child elements vertically */
+    /* padding: 10px; */
+    box-sizing: border-box; 
+    background-color: #21222a;
+}
+
